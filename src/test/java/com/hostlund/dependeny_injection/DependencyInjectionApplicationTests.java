@@ -1,5 +1,7 @@
 package com.hostlund.dependeny_injection;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 import com.hostlund.dependeny_injection.controllers.MyController;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,7 +20,7 @@ class DependencyInjectionApplicationTests {
 	@Test
 	void testUsingTheInjectedController(){
 		String hello = myController.sayHello();
-		assert("Hello".equals(hello));
+		assertEquals("Hello", hello);
 	}
 
 	@Test
