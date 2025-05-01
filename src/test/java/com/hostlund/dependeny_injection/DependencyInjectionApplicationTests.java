@@ -18,16 +18,20 @@ class DependencyInjectionApplicationTests {
 	MyController myController;
 
 	@Test
+	void testGreeting(){
+		MyController notInject = new MyController();
+		System.out.println(notInject.sayGreeting());
+	}
+
+	@Test
 	void testUsingTheInjectedController(){
 		String hello = myController.sayHello();
 		assertEquals("Hello", hello);
 	}
-
 	@Test
 	void testGetControllerFromContext(){
 		MyController controller = applicationContext.getBean(MyController.class);
 		System.out.println(controller.sayHello());
-
 	}
 
 	@Test
