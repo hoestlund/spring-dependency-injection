@@ -1,4 +1,4 @@
-package com.hostlund.dependeny_injection.controllers;
+package com.hostlund.dependency_injection.controllers;
 
 import org.junit.jupiter.api.Test;
 

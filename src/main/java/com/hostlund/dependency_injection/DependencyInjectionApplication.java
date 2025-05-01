@@ -1,6 +1,6 @@
-package com.hostlund.dependeny_injection;
+package com.hostlund.dependency_injection;
 
-import com.hostlund.dependeny_injection.controllers.MyController;
+import com.hostlund.dependency_injection.controllers.MyController;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;

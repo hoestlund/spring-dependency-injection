@@ -1,8 +1,8 @@
-package com.hostlund.dependeny_injection;
+package com.hostlund.dependency_injection;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import com.hostlund.dependeny_injection.controllers.MyController;
+import com.hostlund.dependency_injection.controllers.MyController;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

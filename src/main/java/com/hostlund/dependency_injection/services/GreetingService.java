@@ -1,4 +1,4 @@
-package com.hostlund.dependeny_injection.services;
+package com.hostlund.dependency_injection.services;
 
 public interface GreetingService {
 
