@@ -4,7 +4,7 @@ import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 @Service("datasource")
-//@Profile({"dev","default"})
+@Profile({"dev","default"})
 public class DevDataSourceService implements DatasourceService{
 
   @Override
