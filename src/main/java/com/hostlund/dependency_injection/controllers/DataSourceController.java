@@ -11,7 +11,7 @@ public class DataSourceController {
   private final DatasourceService datasourceService;
 
   @Autowired
-  public DataSourceController(@Qualifier("datasource") DatasourceService datasourceService) {
+  public DataSourceController(DatasourceService datasourceService) {
     this.datasourceService = datasourceService;
   }
 
